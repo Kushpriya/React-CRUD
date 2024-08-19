@@ -1,0 +1,81 @@
+.edit-user-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    max-width: 400px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    z-index: 1000;
+  }
+  
+  .user-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .user-form h3 {
+    margin: 0 0 20px 0;
+    font-size: 1.5rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  .form-grp {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .form-grp input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 350px;
+    box-sizing: border-box;
+    font-size: 1rem;
+  }
+  
+  .form-icon {
+    margin-right:5px;
+    color: #2f5ab1;
+  }
+  
+  .button-grp {
+    display: flex;
+    justify-content: center;
+}
+  
+.button-grp .save-btn,
+.button-grp .cancel-btn {
+    padding: 2px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-items: center;
+    margin: 0 30px;
+}
+ 
+  .button-grp .save-btn {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .button-grp .save-btn:hover {
+    background-color: #218838;
+  }
+  
+  .button-grp .cancel-btn {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .button-grp .cancel-btn:hover {
+    background-color: #c82333;
+  }
+  
